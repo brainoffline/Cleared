@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0A2DC88C-9E36-4B60-8DD7-0E0C0EDF2322}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XAnimations</RootNamespace>
+    <AssemblyName>XAnimations</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnimationExtensions.cs" />
+    <Compile Include="Animators\AttentionAnimators.cs" />
+    <Compile Include="Animators\BaseViewAnimator.cs" />
+    <Compile Include="Animators\BouncingAnimators.cs" />
+    <Compile Include="Animators\ZoomingAnimators.cs" />
+    <Compile Include="Easing\BackEasing.cs" />
+    <Compile Include="Easing\BaseEasingMethod.cs" />
+    <Compile Include="Easing\BounceEasing.cs" />
+    <Compile Include="Easing\CircleEasing.cs" />
+    <Compile Include="Easing\CubicEasing.cs" />
+    <Compile Include="Easing\ElasticEasing.cs" />
+    <Compile Include="Easing\ExpoEasing.cs" />
+    <Compile Include="Easing\Glider.cs" />
+    <Compile Include="Animators\FadingAnimators.cs" />
+    <Compile Include="Animators\FlippingAnimators.cs" />
+    <Compile Include="Easing\LinearEasing.cs" />
+    <Compile Include="Easing\QuadEasing.cs" />
+    <Compile Include="Easing\QuartEasing.cs" />
+    <Compile Include="Easing\QuintEasing.cs" />
+    <Compile Include="Easing\SineEasing.cs" />
+    <Compile Include="Interpolators\BackEase.cs" />
+    <Compile Include="Interpolators\BounceEase.cs" />
+    <Compile Include="Interpolators\CircleEase.cs" />
+    <Compile Include="Interpolators\CubicEase.cs" />
+    <Compile Include="Interpolators\ElasticEase.cs" />
+    <Compile Include="Interpolators\ExpoEase.cs" />
+    <Compile Include="Interpolators\QuadEase.cs" />
+    <Compile Include="Interpolators\QuartEase.cs" />
+    <Compile Include="Interpolators\QuintEase.cs" />
+    <Compile Include="Interpolators\SineEase.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Animators\RotatingAnimators.cs" />
+    <Compile Include="Animators\SliderAnimators.cs" />
+    <Compile Include="Animators\SpecialAnimators.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Values\Attrs.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

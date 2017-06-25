@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/appNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_horizontal"
+        android:textAlignment="gravity"
+        android:text="@string/app_name"
+        android:textColor="@color/primary"
+        android:textSize="@dimen/logo_name_font_size" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/appNameText"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_large"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/VersionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appNameText"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_version"
+        android:textColor="@color/accent" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/accent"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/commentText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:text="@string/designed_by"
+            android:textAlignment="gravity"
+            android:textColor="@color/white" />
+
+        <View
+            android:layout_width="@dimen/brain_width"
+            android:layout_height="@dimen/brain_height"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/margin_normal"
+            android:alpha="0.2"
+            />
+
+    </FrameLayout>
+
+
+</RelativeLayout>

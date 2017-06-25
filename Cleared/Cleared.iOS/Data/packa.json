@@ -1,0 +1,13 @@
+﻿{
+    "Name": "Starter Pack",
+
+  "GameSetFilenames": [
+    "clearedset_train.json",
+    "clearedset5.json",
+    "clearedset6.json",
+    "clearedset7.json",
+    "clearedset8.json",
+    "clearedset9.json"
+  ]
+
+}

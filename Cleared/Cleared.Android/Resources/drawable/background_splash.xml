@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@color/primary"/>
+
+    <item
+        android:left="@dimen/margin_normal"
+        android:right="@dimen/margin_normal"
+        android:top="@dimen/margin_normal"
+        android:bottom="@dimen/margin_normal"
+        android:gravity="center"
+        android:width="@dimen/brain_width"
+        android:height="@dimen/brain_height">
+
+        <bitmap
+            android:src="@drawable/brain"
+            android:alpha="0.2"
+            />
+    </item>
+
+    <!--
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/logo"
+            />
+    </item>
+    -->
+
+</layer-list>

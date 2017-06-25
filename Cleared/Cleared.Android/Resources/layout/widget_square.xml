@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <View
+        android:id="@+id/unfinished_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/game_unfinished_marker" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_small"
+        android:fontFamily="sans-serif-light"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="@dimen/square_font_size"
+        tools:text="25" />
+
+</FrameLayout>

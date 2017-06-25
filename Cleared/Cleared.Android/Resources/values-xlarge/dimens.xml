@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="logo_name_font_size">64sp</dimen>
+    <dimen name="title_font_size">42sp</dimen>
+    <dimen name="gametitle_font_size">32sp</dimen>
+    <dimen name="square_font_size">48sp</dimen>
+    <dimen name="cell_font_size">24sp</dimen>
+
+    <dimen name="cell4_font_size">36sp</dimen>
+    <dimen name="cell5_font_size">34sp</dimen>
+    <dimen name="cell6_font_size">32sp</dimen>
+    <dimen name="cell7_font_size">30sp</dimen>
+    <dimen name="cell8_font_size">28sp</dimen>
+    <dimen name="cell9_font_size">26sp</dimen>
+    <dimen name="cell10_font_size">24sp</dimen>
+
+</resources>
