@@ -1,0 +1,2 @@
+# Cleared
+Minimalist Puzzle Game
