@@ -18,7 +18,7 @@ Some of what I have learnt by working on the project is how quickly getting from
 
 I have created a [YouTube video](https://youtu.be/3t7IEUB6LqA) of the app running.
 
-And published the App to the [iOS App Store](https://itunes.apple.com/nz/developer/brian-donovan-smith/id1234554387) (pending approval) as well and the [Google Play Store](https://play.google.com/store/apps/details?id=com.brainoffline.cleared).
+And published the App to the [iOS App Store](https://itunes.apple.com/us/app/brainoffline-cleared/id1252321387?mt=8) as well and the [Google Play Store](https://play.google.com/store/apps/details?id=com.brainoffline.cleared).
 
 The source has been release in [GitHub](https://github.com/brainoffline/Cleared) under the MIT license.
 
